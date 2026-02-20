@@ -317,22 +317,22 @@ For the software components:
 }
 ```
 
-## Impact
+## Potential Applications
 
 ### For production systems
-- Explains mysterious RSS growth in long-running services
+- May help explain RSS growth patterns in long-running services
 - Provides diagnostic tools (DSR metric) for measuring structural leaks
-- Shows path to bounded retention via lifetime-aligned routing
+- Suggests approaches to bounded retention via lifetime-aligned routing
 
 ### For memory management research
 - Formal framework with theorem proofs (Alignment, Pinning Growth)
-- Reproducible validation on production database (Redis)
-- Applies broadly to jemalloc, tcmalloc, mimalloc, any coarse-grained allocator
+- Reproducible validation on Redis demonstrating predicted behavior
+- Principles may apply to jemalloc, tcmalloc, mimalloc, and other coarse-grained allocators
 
 ### For practitioners
-- Actionable metric (DSR) for measuring memory health
-- Instrumentation library (<2ns overhead, production-ready)
-- Architectural guidance for achieving bounded memory
+- Measurement tools for assessing memory health in production
+- Instrumentation library (<2ns overhead)
+- Architectural patterns to consider when designing allocation strategies
 
 ## Related Work
 
@@ -375,5 +375,3 @@ This is the landing page for the drainability project. Component repositories:
 - **[redis-drainprof](https://github.com/blackwell-systems/redis-drainprof)** - Redis integration for validation
 
 ---
-
-**Status:** All components production-ready • Paper published with DOI • Redis validation complete
