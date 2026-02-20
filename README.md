@@ -51,9 +51,7 @@ Formal framework proving when bounded memory retention is possible:
 - **Sharp dichotomy:** O(1) bounded vs Ω(t) unbounded (no intermediate regime)
 - **Empirical validation:** R² ≥ 0.998 across multiple workloads
 
-Key insight: allocation *routing* (which granule receives an allocation), not allocator *policy* (slab sizes, cache tuning), determines bounded vs unbounded retention.
-
-The paper provides formal proofs and experimental validation showing a 238× differential in recycle rates between lifetime-aligned and lifetime-mixed allocation patterns.
+Allocation *routing* (which granule receives an allocation), not allocator *policy* (slab sizes, cache tuning), determines bounded vs unbounded retention. The paper provides formal proofs and experimental validation showing a 238× differential in recycle rates between lifetime-aligned and lifetime-mixed allocation patterns.
 
 ### libdrainprof (Measurement)
 
