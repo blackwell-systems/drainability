@@ -1,0 +1,26 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Build artifacts
+*.o
+*.so
+*.a
+*.dylib
+
+# Temporary files
+*.tmp
+*.log
+
+# Media output
+*.mp4
+*.mov
+*.avi
+media/videos/
