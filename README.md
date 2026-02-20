@@ -1,3 +1,6 @@
+[![Blackwell Systems™](https://raw.githubusercontent.com/blackwell-systems/blackwell-docs-theme/main/badge-trademark.svg)](https://github.com/blackwell-systems)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18653776.svg)](https://doi.org/10.5281/zenodo.18653776)
+
 # Memory Drainability: Understanding Structural Memory Leaks
 
 Production services leak memory even when Valgrind reports zero leaks. This project formalizes why this happens, provides measurement tools, and demonstrates how to achieve bounded memory retention.
