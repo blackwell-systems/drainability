@@ -343,10 +343,8 @@ Our contribution: formalizing when coarse-grained reclamation produces bounded r
 
 ## Documentation
 
-- **[One-Page Summary](docs/one-pager.md)** - Printable overview (coming soon)
+- **[One-Page Summary](docs/one-pager.md)** - Printable overview
 - **[Tutorial: Measuring DSR](docs/tutorials/measuring-dsr.md)** - Step-by-step guide (coming soon)
-- **[Blog Series](docs/blog-series/)** - Four-part deep dive (coming soon)
-- **[Talks & Presentations](docs/talks/)** - Slide decks and recordings (coming soon)
 
 ## Contributing
 
